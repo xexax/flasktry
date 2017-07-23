@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = git@github.com:xexax/dataist.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "heroku"]
+	url = https://git.heroku.com/desolate-gorge-39125.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[gui]
+	wmstate = normal
+	geometry = 1103x555+268+279 212 251
